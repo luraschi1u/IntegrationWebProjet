@@ -6,7 +6,7 @@ const pug = require("gulp-pug")
 const reload = require("gulp-livereload")
 const connect = require("gulp-connect")
 const open = require("gulp-open")
-const image = require('gulp-image')
+const image = require("gulp-image")
 
 // Constantes
 const outputFolder = "../dist";

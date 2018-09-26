@@ -1,0 +1,67 @@
+/** Commun */
+// Navbar
+nav.navbar.navbar-expand-lg {
+    background-color: #7fbdff;
+
+    a.login-link {
+        color: #ffffff;
+    }
+    a.navbar-brand, a.nav-link, a.nav-link2 {
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 10px;
+        margin: 5px 5px;
+    }
+    a.nav-link:hover {
+        color: #7fbdff;
+        background-color: #ffffff;
+    }
+    button.navbar-toggler {
+        border: 2px solid #ffffff;
+    }   
+    #login {
+        border: none;
+        color: #ffffff;
+    } 
+    i.fas.fa-bars {
+        color: #ffffff;
+    }
+    a.dropdown-item:hover {
+        color: #7fbdff;
+        font-weight: bold;
+    }
+    button.btn {
+        border: none;
+        background: none;
+        color: #ffffff;
+    }
+    button.btn:hover, a.nav-link2:hover, i.far.fa-user:hover {
+        color: #000000;
+        background: none;
+    }
+}
+// Footer
+footer {
+    background-color: #eeeeee; 
+    text-align: center;
+
+    .col-6.col-md {
+        padding-top: 5px;
+
+        h5 {
+            color: #007bff;
+        }
+    }
+}
+
+/** Page d'accueil */
+// Carousel
+#carouselExampleControls {
+    margin: 30px auto;
+    max-height: 500px;
+
+    img.d-block {
+        max-height: 500px;
+    }
+}
