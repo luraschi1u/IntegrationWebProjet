@@ -81,3 +81,33 @@ footer {
         text-align: justify;
     }
 }
+
+/** Page articles */
+// Liste articles
+.contenuBlog.col-11.mx-auto {
+    margin-top: 30px
+}
+.row.listArticles {
+    text-align: center;
+
+    .col-sm-12.col-md-6.col-lg-4 {
+        margin-bottom: 30px;
+    }
+    img {
+        height: 300px;
+    }
+    p.cate {
+        font-weight: bold;
+        margin: 5px 0px;
+    }
+    h3 {
+        margin: 5px 0px;
+    }
+    p.infos {
+        margin: 5px 0px;
+    }
+    p.description {
+        margin-top: 10px;
+        text-align: justify;
+    }
+}
