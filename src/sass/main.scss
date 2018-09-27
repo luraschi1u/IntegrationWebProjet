@@ -65,3 +65,19 @@ footer {
         max-height: 500px;
     }
 }
+
+/** Page services */
+.cardServices {
+    margin: 30px auto;
+    text-align: center;
+
+    i {
+        margin-bottom: 10px;
+    }
+    h2 {
+        color: #007bff;
+    }
+    .description {
+        text-align: justify;
+    }
+}
