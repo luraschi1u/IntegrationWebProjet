@@ -164,3 +164,53 @@ footer {
 table {
     margin: 30 auto;
 }
+
+/** Page article */
+.article {
+    margin: 30px auto;
+    img {
+        border-radius: 10px;
+    }
+    figcaption {
+        padding-left: 20px;
+    }
+
+    i {
+        color: #7fbdff;
+    }
+    h1 {
+        color: #7fbdff;
+        margin: 5px 0;
+    }
+    h5 {
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    h4 {
+        font-variant: small-caps;
+    }
+    .citation {
+        border-left: 2px solid #7fbdff;
+        padding-left: 15px;
+    }
+}
+
+/** Reseaux sociaux */
+.reseauxSociaux {
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    margin: 10px 0;
+    padding: 10px 0;
+    i {
+        padding: 0 20px;
+    }
+    .fab.fa-facebook {
+        color: #3b5998;
+    }
+    .fab.twitter {
+        color : #00aced;
+    }
+    .fab.fa-google-plus {
+        color : #dd4b39;
+    }
+}

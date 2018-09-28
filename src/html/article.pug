@@ -1,0 +1,32 @@
+// Constantes
+- const title = "Article"
+
+html(lang="fr")
+    include components/_head.pug
+    include components/_stylesheet.pug
+
+    body
+        include components/_navbar.pug
+        .row.article
+            .col-11.mx-auto 
+                i.fa.fa-user.fa-1x 
+                |  Nom utilisateur &#8226; 01 janv. 2018 &#8226; ~2min de lecture
+                h1 Titre de l'article
+                h5 Court résumé : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel purus a urna lacinia dictum. Proin a diam euismod, varius justo sed, ultricies ipsum. Ut congue gravida lobortis. Praesent congue, orci sed congue scelerisque, erat felis feugiat turpis, vitae interdum ante felis eu quam. Sed commodo finibus condimentum.
+                figure
+                    img.d-block.w-100(src="http://all4desktop.com/data_images/original/4239027-images-of-nature.jpg", alt="Image article")
+                    figcaption Légende de la photo : Un petit coin de paradis
+                h4 Premier titre
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel purus a urna lacinia dictum. Proin a diam euismod, varius justo sed, ultricies ipsum. Ut congue gravida lobortis. Praesent congue, orci sed congue scelerisque, erat felis feugiat turpis, vitae interdum ante felis eu quam. Sed commodo finibus condimentum. Sed orci nunc, ornare et rutrum sed, tincidunt eu neque. Maecenas rutrum vehicula risus, quis fermentum metus lacinia sed. Nullam ac est erat. Nulla ut porta ipsum. Nunc vulputate ante ac fringilla malesuada. Etiam nec metus eget urna mollis molestie. Aliquam erat volutpat. Curabitur urna ligula, dictum ut molestie sit amet, condimentum at erat. Duis pulvinar pellentesque tincidunt. Suspendisse potenti. Etiam imperdiet leo a semper elementum.
+                p.citation Donec aliquet purus sed lacinia maximus. Fusce euismod risus mauris, sed eleifend ipsum malesuada vel. Proin a lectus diam. Aliquam eget gravida odio. In hac habitasse platea dictumst. Nunc risus risus, consectetur nec venenatis ut, tincidunt et sem. In tempor erat ac rutrum porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ante mi. Mauris in justo venenatis, maximus nunc nec, dictum lorem. Praesent et dignissim justo. Proin sagittis tellus urna, non tempor elit lacinia at.
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut laborum autem error at accusantium voluptate, quod similique reiciendis ex quis nulla necessitatibus soluta dolorem alias expedita veritatis. Quaerat, explicabo.
+                h4 Seconde titre
+                p 
+                 | Nam scelerisque fringilla nunc, at dictum dui auctor gravida. Proin rutrum interdum nulla, sed accumsan nisi vulputate et. Maecenas pellentesque eleifend nisi, vel sodales turpis. Aliquam luctus aliquam nisl, a egestas sem bibendum et. Morbi vulputate ultrices libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis sed justo tincidunt, tincidunt dolor et, tristique tortor. Vestibulum semper lacus turpis, eget consectetur tortor egestas sit amet. Etiam eu sem eu magna finibus finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  
+                 br
+                 br
+                 | Curabitur aliquam, nunc nec ultricies malesuada, augue odio convallis dolor, in vehicula lorem metus et ipsum. Sed eu mauris a purus tristique aliquet eu finibus lectus. Nullam ac mattis lorem.
+                p.citation Vestibulum convallis tellus at placerat egestas. Quisque orci justo, ultrices ultrices urna sed, consectetur elementum velit. Praesent sed ultricies ligula, vitae consectetur nibh. Phasellus vitae arcu augue. Integer euismod, eros nec fringilla lacinia, mi ante ultricies massa, at commodo tortor lacus et est. Pellentesque consequat eleifend sapien, in finibus nibh vestibulum id.
+                include components/_reseauxSociaux.pug
+        include components/_footer.pug
+        include components/_js.pug
