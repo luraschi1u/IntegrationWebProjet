@@ -1,0 +1,42 @@
+// Constantes
+- const title = "Contact"
+
+html(lang="fr")
+    include components/_head.pug
+    include components/_stylesheet.pug
+
+    body
+        include components/_navbar.pug
+        .row.infos.col-11.mx-auto
+            .col-sm-12.col-mg-4.col-lg-4
+                h3.i.fa.fa-envelope Écrivez-nous !
+                p N’hésitez pas à nous laisser un message via ce formulaire et nous répondrons à toutes vos questions le plus rapidement possible.
+                .col-12
+                    input.form-control(type="text",placeHolder="Votre nom")
+                .col-12
+                    input.form-control(type="text",placeHolder="Votre mail")
+                .col-12
+                    input.form-control(type="text",placeHolder="Votre adresse")
+                .col-12
+                    input.form-control(type="text",placeHolder="Sujet")
+                .col-12
+                    textarea.form-control(rows="3", placeHolder="Votre message")
+                button.btn Envoyer !
+            .col-sm-12.col-mg-8.col-lg-8
+                .row#map(style="height:400px")
+                .row.noscontacts
+                    .col-sm-12.col-md-4.col-lg-4
+                        i.fa.fa-map-marker-alt.fa-2x
+                        p Saint-Dié
+                        p France
+                    .col-sm-12.col-md-4.col-lg-4
+                        i.fa.fa-phone.fa-2x
+                        p +33 6 43 51 49 24
+                        p Lun - Ven | 8:00-18:00
+                    .col-sm-12.col-md-4.col-lg-4
+                        i.fa.fa-envelope.fa-2x
+                        p info@exemple.com
+                        p contact@exemple.com
+
+        include components/_footer.pug
+        include components/_js.pug
