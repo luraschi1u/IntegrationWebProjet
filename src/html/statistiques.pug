@@ -1,0 +1,16 @@
+// Constantes
+- const title = "Statistiques"
+
+html(lang="fr")
+    include components/_head.pug
+    include components/_stylesheet.pug
+
+    body
+        include components/_navbar.pug
+        .row
+            .col-sm-11.col-md-11.col-lg-7.mx-auto
+                #chart_div1
+            .col-sm-11.col-md-11.col-lg-4.mx-auto
+                #chart_div2
+        include components/_footer.pug
+        include components/_js.pug
