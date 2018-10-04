@@ -1,0 +1,77 @@
+// Constantes
+- const title = "Connexion"
+
+html(lang="fr")
+    include components/_head.pug
+    include components/_stylesheet.pug
+
+    body
+        include components/_navbar.pug
+        .row.connexion.mx-auto
+            .signIn.col-sm-10.col-md-5.col-lg-5.mx-auto.my-auto
+                .card.text-center
+                    h5.card-header
+                        strong Se connecter
+                    .card-body
+                        form
+                            .md-form
+                                input.form-control(type="email",placeHolder="E-mail")
+                            .md-form
+                                input.form-control(type="password",placeHolder="Mot de passe")
+                            .row
+                                .col-6
+                                    .form-check
+                                        input.form-check-input(type='checkbox')
+                                        label.form-check-label Se souvenir 
+                                .col-6
+                                    a(href='') Mot de passe oublié ?
+                        button.btn.btn-outline-info(type='submit') Se connecter 
+                        
+                        p
+                         | Pas encore membre ? 
+                         a(href="")  Inscrivez-vous !
+                        p Ou se connecter avec :
+                        a.linkSoc.fab.fa-facebook.fa-2x(href="")
+                        a.linkSoc.fab.fa-twitter.fa-2x(href="")
+                        a.linkSoc.fab.fa-linkedin.fa-2x(href="")
+                        a.linkSoc.fab.fa-github.fa-2x(href="")
+
+            .signUp.col-sm-10.col-md-5.col-lg-5.mx-auto
+                .card.text-center
+                    h5.card-header
+                        strong S'inscrire
+                    .card-body
+                        form
+                            .form-row
+                                .col-6
+                                    .md-form
+                                        input.form-control(type="text",placeHolder="Nom de famille")
+                                .col-6
+                                    .md-form
+                                        input.form-control(type="text",placeHolder="Prénom")
+                            .md-form.mt-0
+                                input.form-control(type="email",placeHolder="E-mail")
+                            .md-form
+                                input.form-control(type="password",placeHolder="Mot de passe")
+                            .md-form
+                                input.form-control(type='password',placeHolder="Numéro de téléphone")
+                            .form-check
+                                input.form-check-input(type="checkbox")
+                                label.form-check-label Souscrire aux newsletters
+                        
+                        button.btn.btn-outline-info(type='submit') S'inscrire
+                        p Ou s'inscrire avec :
+                        a.linkSoc.fab.fa-facebook.fa-2x(href="")
+                        a.linkSoc.fab.fa-twitter.fa-2x(href="")
+                        a.linkSoc.fab.fa-linkedin.fa-2x(href="")
+                        a.linkSoc.fab.fa-github.fa-2x(href="")
+                        hr
+                        p
+                         | En cliquant sur 
+                         em  s'inscrire
+                         |  vous acceptez les  
+                         a(href="") termes du contrat.
+
+
+        include components/_footer.pug
+        include components/_js.pug

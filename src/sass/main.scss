@@ -214,3 +214,38 @@ table {
         color : #dd4b39;
     }
 }
+
+/** Page connexion */
+.connexion {
+    margin: 30px auto;
+
+    .card-header {
+        background-color: #7fbdff;
+        color: white;
+    }
+    input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        margin-bottom: 5px;
+    }
+    .linkSoc {
+        padding: 0 5px;
+    }
+    .linkSoc:hover {
+        text-decoration: none;
+    }
+    .fab.fa-facebook{
+        color:#3b5998;
+    }
+    .fab.fa-twitter{
+        color: #33ccff;
+    }
+    .fab.fa-linkedin{
+        color: #00aced;
+    }
+    .fab.fa-github{
+        color: #6e5494;
+    }
+}
